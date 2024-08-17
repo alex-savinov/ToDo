@@ -1,9 +1,11 @@
-package Todo.model.todo.iterators;
+package todo.model.task;
+
+import todo.model.todo.TodoTaskItem;
 
 import java.util.Iterator;
 import java.util.List;
 
-public class TaskIterator<E> implements Iterator<E> {
+public class TaskIterator<E extends TodoTaskItem<E>> implements Iterator<E> {
     private int index;
     private List<E> taskList;
 

@@ -1,4 +1,4 @@
-package todo.model.comparators;
+package todo.model.todo.comparators;
 
 import todo.model.todo.TodoTaskItem;
 import java.util.Comparator;
